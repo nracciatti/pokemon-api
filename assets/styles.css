@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: #252525; */
+  font-family: "Poppins", sans-serif;
+}
+
+.want-poke h1 {
+  color: #feca1b;
+  font-size: 40px;
+}
+
+.want-poke p {
+  font-weight: bolder;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  font-size: 22.5px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 50px;
+}
+
+.poke__container {
+  display: flex;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.poke {
+  background: #404244;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  border-radius: 20px;
+  border: 3px solid #feca1b;
+  position: relative;
+}
+
+.poke h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 7px;
+  color: black;
+}
+
+.id-poke {
+  top: 4rem;
+  font-size: 88px;
+  color: #363636;
+  font-weight: 800;
+}
+
+.poke img {
+  z-index: 2;
+  width: 150px;
+}
+
+.poke__type {
+  text-transform: uppercase;
+  padding: 7px 13px;
+  font-size: 13px;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.tipo-poke {
+  margin: 10px 0;
+  display: flex;
+  gap: 5px;
+}
+
+.height,
+.weight {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #1e1e1e;
+  letter-spacing: 2px;
+}
+
+.input {
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #feca1b;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #fafafa;
+  border: 3px solid #feca1b;
+}
+
+.normal {
+  background-color: #aa9;
+}
+
+.fire {
+  background-color: #f42;
+}
+
+.grass {
+  background-color: #7c5;
+}
+
+.poison {
+  background-color: #a59;
+}
+
+.water {
+  background-color: #39f;
+}
+
+.electric {
+  background-color: #fc3;
+}
+
+.ice {
+  background-color: #6cf;
+}
+
+.fighting {
+  background-color: #b54;
+}
+
+.ground {
+  background-color: #db5;
+}
+
+.flying {
+  background-color: #89f;
+}
+
+.psychic {
+  background-color: #f59;
+}
+
+.bug {
+  background-color: #ab2;
+}
+
+.rock {
+  background-color: #ba6;
+}
+
+.ghost {
+  background-color: #66b;
+}
+
+.dragon {
+  background-color: #76e;
+}
+
+.dark {
+  background-color: rgb(7, 3, 1);
+}
+
+.steel {
+  background-color: #aab;
+}
+
+.fairy {
+  background-color: #e9e;
+}
